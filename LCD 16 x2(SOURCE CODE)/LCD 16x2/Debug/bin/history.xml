@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=LCD 16x2.map -O0 --gc-sections -LE:\CoIDE\configuration\ProgramData\LCD 16x2 -TE:\CoIDE\configuration\ProgramData\LCD 16x2/arm-gcc-link.ld -g">
+      <target file="LCD 16x2.elf" lastModified="16393791477">
+         <source file="..\obj\usb_core.o" lastModified="1639191af65"/>
+         <source file="..\obj\delay.o" lastModified="1639191aff3"/>
+         <source file="..\obj\tm_stm32f4_hd44780.o" lastModified="1639191b0ce"/>
+         <source file="..\obj\usbd_usr.o" lastModified="1639191b239"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="163919088d8"/>
+         <source file="..\obj\usbd_core.o" lastModified="1639191b38e"/>
+         <source file="..\obj\main.o" lastModified="16393791205"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1639191b649"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="1639191b71c"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="1639191b83b"/>
+         <source file="..\obj\usbd_desc.o" lastModified="1639191ba6b"/>
+         <source file="..\obj\tm_stm32f4_usb_vcp.o" lastModified="1639191bbb0"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1639191bc60"/>
+         <source file="..\obj\usbd_cdc_vcp.o" lastModified="1639191bd9a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1639191be37"/>
+         <source file="..\obj\syscalls.o" lastModified="163919093a4"/>
+         <source file="..\obj\usb_bsp.o" lastModified="1639191bf97"/>
+         <source file="..\obj\usbd_req.o" lastModified="1639191c14e"/>
+         <source file="..\obj\usb_dcd_int.o" lastModified="1639191c2fc"/>
+         <source file="..\obj\usbd_cdc_core.o" lastModified="1639191c459"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="1639191c4f0"/>
+         <source file="..\obj\misc.o" lastModified="1639191c57b"/>
+         <source file="..\obj\usb_dcd.o" lastModified="1639191c6bb"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="1639191c77f"/>
+         <source file="..\obj\tm_stm32f4_timer_properties.o" lastModified="1639191c81a"/>
+         <source file="..\obj\usbd_ioreq.o" lastModified="1639191c957"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1639191cabe"/>
+      </target>
+   </processor>
+</history>
